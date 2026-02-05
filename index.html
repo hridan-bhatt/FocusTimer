@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Timer App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="panel">
+
+  <div>
+    <div class="title">Clock</div>
+    <div id="clock" class="time">00:00:00</div>
+  </div>
+
+  <div>
+    <div class="title">Stopwatch</div>
+    <div id="stopwatch" class="time">00:00:00</div>
+    <div class="row">
+      <button onclick="swStart()">Start</button>
+      <button onclick="swStop()">Stop</button>
+      <button onclick="swReset()">Reset</button>
+    </div>
+  </div>
+
+  <div>
+    <div class="title">Timer</div>
+    <div id="timer" class="time">00:00</div>
+    <input id="min" type="number" placeholder="Min">
+    <div class="row">
+      <button onclick="tStart()">Start</button>
+      <button onclick="tStop()">Stop</button>
+    </div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
