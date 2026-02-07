@@ -36,3 +36,7 @@ function tStart() {
   }, 1000);
 }
 function tStop() { clearInterval(tInt); tInt = null; }
+function tReset(){
+  t.stop;
+  timer.textContent="00:00";
+}
