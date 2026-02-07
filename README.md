@@ -1,4 +1,4 @@
-# TimeBox ⏱️
+# FocusTImer ⏱️
 
 A simple and clean timer web app built using **HTML**, **CSS**, and **JavaScript**.
 
@@ -20,7 +20,7 @@ A simple and clean timer web app built using **HTML**, **CSS**, and **JavaScript
 
 ## 🌐 Live Demo (Optional)
 If you enable GitHub Pages, your live link will appear here:  
-`https://YOUR_USERNAME.github.io/TimeBox/`
+`https://hridan-bhatt.github.io/FocusTimer/`
 
 ## 👤 Creator
 Created by **Hridan Bhatt**
